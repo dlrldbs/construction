@@ -19,7 +19,7 @@ table { border-collapse:collapse; }
 
 /* layout */
 
-#header { position: relative; margin:0 auto; width:1340px; height:1186px; }
+#header { position: relative; margin:0 auto; width:1340px; height:1186px; background-image: url(images/home/hero\ image.png); background-repeat: no-repeat; background-position: right 50px; }
 
 #WhyChooseUs {position: relative; margin: 0 auto; width: 1340px; height: 1154px; margin-top: 93px; }
 
@@ -40,7 +40,7 @@ table { border-collapse:collapse; }
 /*  header  */
 h1 { position: absolute; font-size: 25px; font-weight: 600; left: 85px; top: 70px;  text-shadow: 0 3px 5px gray;}
 h1 a {  color:#40A2D5 ; text-decoration: none; }
-.gnb { position: absolute; z-index: 1000;  height: 30px; left: 874px; top: 74px; text-shadow: 0 2px 2px gray;}
+.gnb { position: absolute; z-index: 1000;  height: 30px; left: 874px; top: 74px;  text-shadow: 0 3px 2px gray;}
 .gnb li { float:left; }
 .gnb li:first-child {transition: 0.3s;}
 .gnb li:first-child:hover {opacity: 0.7;}
@@ -56,11 +56,26 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
 .title { position: absolute;left: 105px; top: 226px; font-size: 64px; font-weight: 700; text-shadow: 0 2px 5px gray; }
 .headtext { position: absolute; left: 105px; top: 497px; line-height: 28px; }
 .button1 {  float: left;}
-.button1 .bt1 { transition: 0.3s; position: absolute; left: 60px; top: 593px; }
+.button1 .bt1 { transition: 0.3s; position: absolute; width: 214px; height: 64px; left: 105px; top: 593px; }
 .button1 .bt1:hover { opacity: 0.7;}
-.button1 .bt2 { transition: 0.3s; position: absolute; left: 260px; top: 593px;}
+.button1 .bt2 { transition: 0.3s; position: absolute; width: 214px; height: 64px; left: 334px; top: 593px;}
 .button1 .bt2:hover { opacity: 0.7;}
-.stats { position: absolute; left: 85px; top: 747px; }
+
+.stats { position: relative; left: 85px; top: 747px; }
+.stats .stat1deco { position: absolute; z-index: -20; left: 20px; top: 22px;} 
+.stats .stat1 { position: relative; left: 10px; top: 22px;}
+.stats .stat1 .statcount { position: absolute; left: 15px; top: 5px; font-size: 40px; font-weight: 600; }
+.stats .stat1 .statinfo { position: absolute; left: 13px; top: 75px; font-size: 20px; font-weight: 400; color: rgba(107, 107, 107, 1); }
+.stats .stat2deco { position: absolute; z-index: -20; left: 210px; top: 22px;}
+.stats .stat2 { position: relative; left: 200px; top: 22px;}
+.stats .stat2 .statcount { position: absolute; left: 15px; top: 5px; font-size: 40px; font-weight: 600; }
+.stats .stat2 .statinfo { position: absolute; left: 13px; top: 75px; font-size: 20px; font-weight: 400; color: rgba(107, 107, 107, 1); }
+.stats .stat3deco { position: absolute; z-index: -20; left: 410px; top: 22px;}
+.stats .stat3 { position: relative; left: 400px; top: 22px;}
+.stats .stat3 .statcount { position: absolute; left: 15px; top: 5px; font-size: 40px; font-weight: 600; }
+.stats .stat3 .statinfo { position: absolute; left: 13px; top: 75px; font-size: 20px; font-weight: 400; color: rgba(107, 107, 107, 1); }
+
+
 
 .Logos { position: absolute; background-color:#FAFAFA; left: 85px; top: 997px; width: 1170px; height: 180px; border-radius: 150px;  }
 .Logos ul li { float: left;  padding-left: 82px; padding-top: 74px;}
@@ -79,7 +94,7 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
 
 /*  WhyChooseUs  */
 .section2text { position: absolute; width: 541px; left: 105px; top: 37px; height: 56px; font-size: 18px; line-height: 28px; }
-.section2btn { transition: 0.3s; position: absolute; left: 65px; top: 117px; }
+.section2btn { transition: 0.3s; position: absolute; left: 95px; top: 117px; }
 .section2btn:hover { opacity: 0.7;}
 .sectiontitle { position: absolute; width: 521px; height: 195px; left: 787px; top: 0; font-size: 54px; line-height: 64.8px;}
 .section2img { position: absolute; left: 85px; top: 292px; }
@@ -144,6 +159,8 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
 .emailbox #email { position: absolute; width: 489px; height: 63px; border-radius: 7px; left: 135px; top: 313px; background-color: rgba(249, 249, 249, 1); border: none; }
 .subjectbox #subject { position: absolute; width: 489px; height: 64px; border-radius: 7px; left: 135px; top: 397px; background-color: rgba(249, 249, 249, 1); border: none; }
 .messagebox #message { position: absolute; width: 489px; height: 200px; border-radius: 7px; left: 135px; top: 481px; background-color: rgba(249, 249, 249, 1); border: none; }
+.sendbtn { transition: 0.3s; position: absolute; left: 135px; top: 711px; }
+.sendbtn:hover { opacity: 0.7; }
 .MAP { position: absolute; width: 783px; height: 500px; right: 0; top: 249px; background-image: url(images/ContactUs/MAP.png);}
 .MAP .Austrailia { position: absolute;  width: 121px; height: 67px; left: 158px; top: 10px; background-color: rgba(255, 255, 255, 1); text-align: center; }
 .MAP .Austrailia span { font-size: 10px;   font-weight: 400; }
@@ -175,7 +192,7 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
 /*Newsletter*/
 .newslettertitle { position: absolute; left:50px ; top: 7px; font-weight: 500; font-size: 54px; line-height: 56px; text-align: center; }
 .newslettertext { position: absolute; left:32px ; top: 157px; font-weight: 400; font-size: 20px; line-height: 28px; text-align: center; }
-.newsletterbtn { transition: 0.3s; position: absolute; left:130px ; top: 248px;}
+.newsletterbtn { transition: 0.3s; position: absolute; left:168px ; top: 248px;}
 .newsletterbtn:hover { opacity: 0.7;}
 /*footer*/
 #footer .logo { position: absolute; left:20px ; top: 10px; text-decoration: none;}
@@ -208,7 +225,8 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
 <body>
 <header id="header">
     <div class="inner">
-        <h1><a href="index.html">CONSTRUCTION</a></h1>
+        <h1><a href="index.html">CONSTRUCTION</a>
+        </h1>
 
         <nav class="gnb">
             <ul>
@@ -221,9 +239,7 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
 
         <div class="inner">
 
-            <div class="visual">
-                <img src="images/home/hero image.png" alt="building">
-            </div>
+            
         
         </div>
 
@@ -232,19 +248,49 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
         </div>        
 
         <div class="headtext">
-            <span style="font-weight: 400;">Blessing welcomed ladyship she met humored sir</br>breeding her. Six curiosity day assurance bed necessary.</span>
+            <span style="color: rgba(107, 107, 107, 1); font-weight: 400;">Blessing welcomed ladyship she met humored sir</br>breeding her. Six curiosity day assurance bed necessary.</span>
         </div>
 
         <div class="button1">
-        <a href="#" class="bt1"><img src="images/home/Button-Download app.png" alt="Explore"></a>
-        
-        
-		<a href="#" class="bt2"><img src="images/home/Button-Download app 1.png" alt="Contact Us"></a>
+            <div class="bt1">
+                 <a href="#"><img src="images/home/Button-Download app.png" alt="Explore"></a>
+            </div>
+            <div class="bt2">
+		        <a href="#" ><img src="images/home/Button-Download app 1.png" alt="Contact Us"></a>
+            </div>
         </div>
 
+
         <div class="stats">
-            <img src="images/home/stats.png" alt="stats">
+            <div class="stat1deco">
+                <img src="images/home/Ellipse 739.png" alt="orangw_ellipse">
+            </div>
+            <div class="stat1">
+                <div class="statcount"><span>25,365</span></div>
+                <div class="statinfo"><span>Projects Done</span></div>
+            </div>
+
+            <div class="stat2deco">
+                <img src="images/home/Ellipse 740.png" alt="blue_ellipse">
+            </div>
+            <div class="stat2">
+                <div class="statcount"><span>15,200</span></div>
+                <div class="statinfo"><span>Buildings Done</span></div>
+            </div>
+
+            <div class="stat3deco">
+                <img src="images/home/Ellipse 741.png" alt="green_ellipse">
+            </div>
+            <div class="stat3">
+                <div class="statcount"><span>350+</span></div>
+                <div class="statinfo"><span>Total Employees</span></div>
+            </div>
+
+           
+
         </div>
+
+
         
         <div class="Logos">
             <ul>
@@ -417,7 +463,8 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
     <div class="nametag"><span>Name</span></div>
     <div class="namebox">
         <form>
-            <p><input style="padding-left:8px" id="name" type="text" name="name" placeholder="Maya"></p>
+            <p><input style="padding-left
+            :8px" id="name" type="text" name="name" placeholder="Maya"></p>
         </form>
     </div>
 
@@ -437,6 +484,10 @@ h1 a {  color:#40A2D5 ; text-decoration: none; }
         <form>
             <p><input style="padding-left:8px" id="message" type="text" name="messeage" placeholder="Message"></p>
         </form>
+    </div>
+
+    <div class="sendbtn">
+        <a href="#"><img src="images/ContactUs/Button-2.png" alt="send button"></a>
     </div>
 
     <div class="MAP">
