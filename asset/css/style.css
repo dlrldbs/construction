@@ -50,7 +50,6 @@ a {
 
 
 
-#footer { position: relative; margin: 0 auto; width: 1170px; height: 227px; margin-top: 140px; margin-bottom:40px; }
 
 /*  header  */
 #header {
@@ -588,17 +587,25 @@ opacity: 0.7;
               opacity: 0.7;
               }
 /*footer*/
-#footer .logo { 
-        position: absolute; 
-        left:20px ; 
-        top: 10px; 
-        text-decoration: none;
-      }
-#footer .logo a { 
-          font-size: 25px; 
-          text-decoration: none; 
-          color: rgba(64, 162, 213, 1)
+#footer { 
+         position: relative; 
+         margin: 0 auto; 
+         width: 1170px; 
+         height: 227px; 
+         margin-top: 140px; 
+         margin-bottom:40px; 
         }
+#footer .logo { 
+                position: absolute; 
+                left:20px ; 
+                top: 10px; 
+                text-decoration: none;
+               }
+#footer .logo a { 
+                 font-size: 25px; 
+                 text-decoration: none; 
+                 color: rgba(64, 162, 213, 1)
+                 }
 .footertext { 
       position: absolute; 
       width: 236px; 
