@@ -133,19 +133,21 @@ h1 a {
 .contents .item {
                  margin-top: 15px;
 }
-.stats1 ul {
-            margin-top: 112px;
-            margin-left: 30px;
+.stats1 {
+         position: absolute;
+         top: 420px;
+         left: 50px;
 }
-.stats1 .static {
+.stats1 .static1 {
                   font-size: 40px;
                   font-weight: 500;
+                  color:rgba(49, 49, 49, 1);
 }
-.stats1 .static::before {
+.stats1 .static1::before {
                           content: "";
                           position: absolute;
-                          left: 20px;
-                          top: 525px;
+                          left: -17px;
+                          top: 20px;
                           width: 50px;
                           height: 28px;
                           background: #FE8432;
@@ -153,16 +155,60 @@ h1 a {
                           z-index: -999;
                           border-radius: 60px 60px 0 1px;
 }
-.stats1 .item { 
+.stats1 .item1 { 
                 font-size: 20px;
                 font-weight: 400;
                 color: #6B6B6B;
 }
-
+.stats2 {
+        position: absolute;
+        top: 510px;
+        left: 260px;
+}
+.stats2 .static2 {
+                  font-size: 40px;
+                  font-weight: 500;
+                  color:rgba(49, 49, 49, 1);
+}
+.stats2 .static2::before {
+                          content: "";
+                          position: absolute;
+                          left: -17px;
+                          top: 20px;
+                          width: 50px;
+                          height: 28px;
+                          background: #40A2D5;
+                          transform: rotate(-53deg);
+                          z-index: -999;
+                          border-radius: 60px 60px 0 1px;
+}
+.stats3 {
+        position: absolute;
+        top: 510px;
+        left: 450px;
+}
+.stats3 .static3 {
+                  font-size: 40px;
+                  font-weight: 500;
+                  color:rgba(49, 49, 49, 1);
+}
+.item3 { width: 164px;}
+.stats3 .static3::before {
+                          content: "";
+                          position: absolute;
+                          left: -17px;
+                          top: 20px;
+                          width: 50px;
+                          height: 28px;
+                          background: #42B918;
+                          transform: rotate(-53deg);
+                          z-index: -999;
+                          border-radius: 60px 60px 0 1px;
+}
  .partners_logo{ 
                 position: absolute; 
                 background-color:#FAFAFA; 
-                top: 933px;
+                top: 997px;
                 left: 1.5%;
                 margin-top: 14px;
                 width: 1170px; height: 180px; 
@@ -258,7 +304,62 @@ h1 a {
             position: absolute;
             top: 375px;
             left: 791px;
-}       
+}
+.wcuflist {
+           position: absolute;
+           top: 320px;
+           right: 0;
+}
+.wcuflist ul {
+                display: flex;
+}
+.wcuflist p { 
+              display: flex;
+              font-weight: 600;
+              font-size: 72px;
+              line-height: 100%;
+              margin: 134px 0 142px 97px;
+}
+.wcuflist .wcuflist1 p::before {
+                                content: '';
+                                position: absolute;
+                                width: 76px;
+                                height: 76px;
+                                left: 70px;
+                                top: 160px;
+                                background: skyblue;
+                                border-radius: 5px 38px;
+                                z-index: -99;
+}
+.wcuflist .wcuflist2 p::before {
+                                content: '';
+                                position: absolute;
+                                width: 76px;
+                                height: 76px;
+                                left: 70px;
+                                top: 422px;
+                                background: rgba(254, 132, 50, 0.52);
+                                border-radius: 5px 38px;
+                                z-index: -99;
+}
+.wcuflist .wcuflist3 p::before {
+                                content: '';
+                                position: absolute;
+                                width: 76px;
+                                height: 76px;
+                                left: 70px;
+                                top: 684px;
+                                background: #B5E4A5;
+                                border-radius: 5px 38px;
+                                z-index: -99;
+}
+.wcuflist span {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                margin: 36px 0 0 37px;
+                letter-spacing: -1px;
+}
 /* Our best Engineers */
 #Employee{
           position: relative;
