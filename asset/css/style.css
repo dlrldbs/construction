@@ -539,6 +539,16 @@ h1 a {
             font-size: 18px;
             color: #FAFAFA;
 }
+.double_quotation_mark_1 {
+                          position: absolute;
+                          top: 238px;
+                          left: 201px;
+}
+.double_quotation_mark_2 {
+                          position: absolute;
+                          top: 638px;
+                          left: 1149px;
+}
 /*ContactUs*/
 #ContactUs { 
             position: relative; 
